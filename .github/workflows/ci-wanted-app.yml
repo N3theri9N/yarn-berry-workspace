@@ -3,7 +3,7 @@ name: CI-wanted-app
 on:
   push:
     branches:
-      - deploy
+      - 'deploy'
     paths:
       - 'apps/wanted/**'
 
